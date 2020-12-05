@@ -1,8 +1,19 @@
-Nav {
-  z-index: 10;
-}
-
 .nav {
+  z-index: 15;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  height: 4em;
+  background: #fff0f0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+.nav-link {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 1.1em;
+  color: #382b22;
+  cursor: pointer
 }
