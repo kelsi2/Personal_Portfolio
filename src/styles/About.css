@@ -1,0 +1,12 @@
+#about {
+  z-index: 20;
+  background-color: white;
+}
+
+.about-me-header {
+  display: flex;
+  justify-content: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+}

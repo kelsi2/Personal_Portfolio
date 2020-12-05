@@ -1,18 +1,19 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import { NavHashLink } from 'react-router-hash-link';
 import "../styles/Nav.css"
 
 export default function Nav() {
   return (
     <>
       <span className="nav">
-        <Link to="/" id="nav-name" className="nav-link">Kelsi Proulx</Link>
-        <Link className="nav-link" to="#">About</Link>
-        <Link className="nav-link" to="#">Skills</Link>
-        <Link className="nav-link" to="#">Projects</Link>
-        <Link className="nav-link" to="#">Experience</Link>
-        <Link className="nav-link" to="#">Education</Link>
-        <Link className="nav-link" to="#">Resume</Link>
+        <NavHashLink smooth to="/#top" id="nav-name" className="nav-link">Kelsi Proulx</NavHashLink>
+        <NavHashLink className="nav-link" smooth to="/#about">About</NavHashLink>
+        <NavHashLink className="nav-link" smooth to="#">Skills</NavHashLink>
+        <NavHashLink className="nav-link" smooth to="#">Projects</NavHashLink>
+        <NavHashLink className="nav-link" smooth to="#">Experience</NavHashLink>
+        <NavHashLink className="nav-link" smooth to="#">Education</NavHashLink>
+        <NavHashLink className="nav-link" smooth to="#">Resume</NavHashLink>
+        {/* TODO: ADD SOCIAL MEDIA AND CONTACT OPTIONS */}
       </span>
     </>
   )
