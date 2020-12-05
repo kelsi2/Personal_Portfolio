@@ -1,5 +1,6 @@
 #about {
-  z-index: 20;
+  position: relative;
+  z-index: 1;
   background-color: white;
 }
 
@@ -8,5 +9,33 @@
   justify-content: center;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
-  font-size: 2em;
+  font-size: 3em;
+}
+
+.content {
+  display: flex;
+}
+
+.col {
+  flex: 1
+}
+
+.about-me {
+
+}
+
+.img-container {
+  width: 15rem;
+  height: 15rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile-img {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%;
+  height: 100%;
+  width: auto
 }

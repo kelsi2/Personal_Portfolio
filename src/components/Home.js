@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/App.css';
 import '../styles/Button.scss';
-import {Link} from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default function Home() {
   return (
@@ -12,10 +12,10 @@ export default function Home() {
           <h1 className="title">Full Stack <br/> Web Developer</h1>
       </div>
       <span id="btn-container">
-        <Link to="/#/about" className="learn-btn learn-more">
+        <Link to="#about" className="learn-btn learn-more">
           Find out More
           <br/>
-          <i className="fas fa-angle-double-right"></i>
+          <i className="fas fa-angle-double-down"></i>
           {/* TODO: FIND A WAY TO ANIMATE ARROW!!! */}
         </Link>
       </span>
