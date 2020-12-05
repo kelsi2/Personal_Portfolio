@@ -1,5 +1,6 @@
-import React from "react"
-import '../App.css';
+import React from "react";
+import '../styles/App.css';
+import '../styles/Button.scss';
 import {Link} from "react-router-dom";
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
           <h1 className="title">Full Stack <br/> Web Developer</h1>
       </div>
       <span id="btn-container">
-        <Link to="#" className="learn-more">
+        <Link to="#" className="learn-btn learn-more">
           Find out More
           <br/>
           <i className="fas fa-angle-double-right"></i>
