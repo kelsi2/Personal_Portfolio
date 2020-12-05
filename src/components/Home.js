@@ -10,6 +10,7 @@ export default function Home() {
       <div id="container">
           <h1 className="name">Kelsi <br/> Proulx</h1>
           <h1 className="title">Full Stack <br/> Web Developer</h1>
+          {/* TODO: ADD SOCIAL MEDIA LINKS HERE!!!!!!!!! */}
       </div>
       <span id="btn-container">
         <Link to="#" className="learn-btn learn-more">
