@@ -6,6 +6,7 @@ export default function Nav() {
   return (
     <>
       <span className="nav">
+        <Link to="/" id="nav-name" className="nav-link">Kelsi Proulx</Link>
         <Link className="nav-link" to="#">About</Link>
         <Link className="nav-link" to="#">Skills</Link>
         <Link className="nav-link" to="#">Projects</Link>
