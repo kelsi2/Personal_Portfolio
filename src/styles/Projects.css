@@ -1,16 +1,15 @@
 .project-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  width: 75%;
+  width: 85%;
   margin: auto;
   padding-bottom: 0.5em;
 }
 
-.col-1 {
-  flex: 1
-}
-
 .project-img {
-  height: auto;
-  width: 25em
+  width: 23em;
+  height: 23em;
+  object-fit: cover;
+  margin: 1em
 }

@@ -12,6 +12,11 @@ export default function About() {
       <div className="content">
         <div className="col">
           <span className="about-me">About Me</span>
+        <div className="img-align">
+          <div className="img-container">
+            <img className="profile-img" src={Kelsi} alt="Kelsi"></img>
+          </div>
+        </div>
           <p className="about-text">
             <b>WHO I AM:</b> I am a fullstack web developer with a passion for frontend development. I work well on a team, have a strong work ethic, and the ability to complete any task assigned to me. I have advanced research and people skills from my background in library work.
           </p>
@@ -24,11 +29,6 @@ export default function About() {
           <p className="about-text">
             <b>WHY I'M HERE:</b> I chose web development because I want a career that will allow me to continually learn, explore new things, and always be excited about what I do.
           </p>
-        </div>
-        <div className="col img-align">
-          <div className="img-container">
-            <img className="profile-img" src={Kelsi} alt="Kelsi"></img>
-          </div>
         </div>
         <div className="col">
           <Form />

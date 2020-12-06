@@ -7,13 +7,21 @@
 .content {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 1.5em;
-  margin-left: 1.5em;
+  width: 70%;
+  margin: auto;
   padding-bottom: 0.5em;
 }
 
 .col {
-  flex: 1
+  flex: 1;
+}
+
+.col:first-child {
+  margin-right: 3em;
+}
+
+.col:last-child {
+  margin-left: 3em
 }
 
 .about-me {
@@ -29,12 +37,12 @@
 
 .img-align {
   display: flex;
-  justify-content: center;
+  float: right
 }
 
 .img-container {
-  width: 15rem;
-  height: 15rem;
+  width: 14rem;
+  height: 14rem;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
