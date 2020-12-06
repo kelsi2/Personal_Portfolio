@@ -1,12 +1,13 @@
 import React from 'react';
 import Kelsi from "../images/Kelsi.png"
 import "../styles/About.css"
+import "../styles/App.css"
 import Form from "./Form"
 
 export default function About() {
   return (
     <>
-      <span id="about" className="about-me-header">Profile</span>
+      <span id="about" className="section-header">Profile</span>
       <hr className="rule" />
       <div className="content">
         <div className="col">

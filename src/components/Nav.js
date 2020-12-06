@@ -8,8 +8,7 @@ export default function Nav() {
       <span className="nav">
         <Link smooth to="#top" id="nav-name" className="nav-link">Kelsi Proulx</Link>
         <Link className="nav-link" smooth to="#about">About</Link>
-        <Link className="nav-link" smooth to="#">Skills</Link>
-        <Link className="nav-link" smooth to="#">Projects</Link>
+        <Link className="nav-link" smooth to="#projects">Projects</Link>
         <Link className="nav-link" smooth to="#">Experience</Link>
         <Link className="nav-link" smooth to="#">Education</Link>
         <Link className="nav-link" smooth to="#">Resume</Link>
