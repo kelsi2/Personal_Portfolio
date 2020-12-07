@@ -56,7 +56,13 @@
   width: auto
 }
 
-#social-icons .social-icon {
+#social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
   display: inline-flex;
   justify-content: center;
   align-items: center;
