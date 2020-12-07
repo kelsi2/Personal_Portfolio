@@ -9,9 +9,9 @@ export default function Nav() {
         <Link smooth to="#top" id="nav-name" className="nav-link">Kelsi Proulx</Link>
         <Link className="nav-link" smooth to="#about">About</Link>
         <Link className="nav-link" smooth to="#projects">Projects</Link>
-        <Link className="nav-link" smooth to="#">Experience</Link>
-        <Link className="nav-link" smooth to="#">Education</Link>
-        <Link className="nav-link" smooth to="#">Resume</Link>
+        <Link className="nav-link" smooth to="#experience">Experience</Link>
+        <Link className="nav-link" smooth to="#education">Education</Link>
+        <a className="nav-link" href="https://bit.ly/2JSIT3Y">Resume</a>
         {/* TODO: ADD SOCIAL MEDIA AND CONTACT OPTIONS */}
       </span>
     </>
