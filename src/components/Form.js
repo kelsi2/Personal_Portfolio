@@ -10,10 +10,10 @@ const Form = (props) => {
 
   const config = {
   api: `${process.env.REACT_APP_API}`,
-  title: 'Details',
+  title: 'Contact',
   description: 'Want to get in touch with me?',
   successMessage: 'Thank you for contcting me.',
-  errorMessage: 'Please Fill the complete form',
+  errorMessage: 'Please fill all fields',
   fields:{
     firstName: '',
     lastName: '',
@@ -21,10 +21,9 @@ const Form = (props) => {
     msg: ''
   },
   fieldsConfig:  [
-   { id: 1, label: 'First Name', fieldName: 'firstName', type: 'text',placeholder:'Your First Name', isRequired: true , klassName:'first-name-field'},
-   { id: 2, label: 'Last Name', fieldName: 'lastName', type: 'text', placeholder: 'Your Last Name', isRequired: true , klassName:'last-name-field'},
-   { id: 3, label: 'Email', fieldName: 'email', type: 'email', placeholder: ' Your Email', isRequired: true , klassName:'email-field'},
-   { id: 4, label: 'Message', fieldName: 'msg', type: 'textarea',placeholder:'Write something.....', isRequired: true , klassName:'message-field'}
+   { id: 1, label: 'Name', fieldName: 'name', type: 'text',placeholder:'Enter your name', isRequired: true },
+   { id: 2, label: 'Email', fieldName: 'email', type: 'email', placeholder: ' Enter your email', isRequired: true},
+   { id: 3, label: 'Message', fieldName: 'msg', type: 'textarea',placeholder:'How can I help?', isRequired: true}
   ]
 }
 
@@ -73,8 +72,9 @@ const Form = (props) => {
   return (
     <div className="contact-form">
       <div className="contact-form-header">
-        <h2 className="about-me">{config.title}</h2>
-        <p className="about-text details">{config.description}</p>
+        <h2 id="footer" className="section-header">{config.title}</h2>
+        <hr className="rule" />
+        <p>{config.description}</p>
       </div>
       <div className="contact-form-container">
         <div>
@@ -87,7 +87,6 @@ const Form = (props) => {
                       <label>{field.label}</label>
                       <input
                         type={field.type}
-                        className={field.klassName}
                         placeholder={field.placeholder}
                         value={field.name}
                         onChange={e => handleChange(e, field.fieldName)}
@@ -97,7 +96,6 @@ const Form = (props) => {
                     <React.Fragment>
                       <label>{field.label}</label>
                       <textarea 
-                        className={field.klassName} 
                         placeholder={field.placeholder} 
                         onChange={e => handleChange(e, field.fieldName)}
                         value={field.name}

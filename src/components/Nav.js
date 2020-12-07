@@ -11,8 +11,8 @@ export default function Nav() {
         <Link className="nav-link" smooth to="#projects">Projects</Link>
         <Link className="nav-link" smooth to="#experience">Experience</Link>
         <Link className="nav-link" smooth to="#education">Education</Link>
+        <Link className="nav-link" smooth to="#footer">Contact</Link>
         <a className="nav-link" href="https://bit.ly/2JSIT3Y">Resume</a>
-        {/* TODO: ADD SOCIAL MEDIA AND CONTACT OPTIONS */}
       </span>
     </>
   )

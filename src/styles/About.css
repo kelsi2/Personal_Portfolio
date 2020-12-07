@@ -1,7 +1,6 @@
 #about {
   position: relative;
   z-index: 1;
-  background-color: white;
 }
 
 .content {
@@ -9,86 +8,24 @@
   flex-wrap: wrap;
   width: 70%;
   margin: auto;
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
 }
 
 .col {
   flex: 1;
 }
 
-.col:first-child {
-  margin-right: 3em;
-}
-
-.col:last-child {
-  margin-left: 3em
-}
-
-.about-me {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: 400;
-  font-size: 1.5em;
-  color: #0C3861;
-  padding-bottom: 0.5em
-}
-
-.img-align {
-  display: flex;
-  float: right
-}
-
-.img-container {
-  width: 14rem;
-  height: 14rem;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-.profile-img {
-  display: inline;
-  margin: 0 auto;
-  margin-left: -25%;
-  height: 100%;
-  width: auto
-}
-
-#social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social-icon {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  height: 3.5rem;
-  width: 3.5rem;
-  background-color: #0D2754;
-  color: #fff;
-  border-radius: 100%;
-  margin-right: 1rem;
-  margin-top: 0.5rem
-}
-
-#social-icons .social-icon:last-child {
-    margin-right: 0;
-}
-#social-icons .social-icon:hover {
-    background-color: #575D83;
-}
-
 .about-text {
   font-family: 'Rubik', sans-serif;
   font-weight: 200;
-  font-size: 1em;
+  font-size: 1.2em;
+  text-align: left;
+  min-width: 70%
 }
 
-.details {
-  text-align: center;
+.profile-img {
+  height: 25em;
+  width: 25em;
+  object-fit: cover;
+  margin-left: 3em
 }

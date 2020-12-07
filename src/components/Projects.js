@@ -1,6 +1,5 @@
 import React from 'react';
 import "../styles/Projects.css"
-import { Link } from "react-router-dom"
 import jeopardy from "../images/letsplayjeopardy.png"
 import forkItAll from "../images/forkItAllHome.png"
 import products from "../images/Products_page.png"
@@ -20,10 +19,10 @@ const Projects = () => {
           <div className="overlay">
             <div className="overlay-text">
               <h1>Jeopardy Hackathon</h1>
-              <p><Link to="https://jeopardy-hackathon.netlify.app/">Live Version</Link></p>
-              <p><Link to="https://github.com/kelsi2/Hack_the_Quiz_Platform_Hackathon">Github</Link></p>
+              <p><a href="https://jeopardy-hackathon.netlify.app/">Live Version</a></p>
+              <p><a href="https://github.com/kelsi2/Hack_the_Quiz_Platform_Hackathon">Github</a></p>
               <hr/>
-              <p>Jeopardy game built for <Link to="https://www.mintbean.io/meets">Mintbean JavaScript Hacks: Hack the Quiz Platform</Link>.</p>
+              <p>Jeopardy game built for <a href="https://www.mintbean.io/meets">Mintbean JavaScript Hacks: Hack the Quiz Platform</a>.</p>
               <hr/>
               <p><b>Front-end: </b>React, Redux, React Router, Material UI, CSS, Axios</p>
               <hr/>
@@ -38,9 +37,9 @@ const Projects = () => {
             <div className="overlay">
               <div className="overlay-text">
                 <h1>Fork It All</h1>
-                <p><Link to="https://fork-it-all.herokuapp.com/">Live Version</Link></p>
-                <p><Link to="https://github.com/kelsi2/fork_it_all_backend">Back End Repo</Link></p>
-                <p><Link to="https://github.com/kelsi2/fork_it_all_frontend">Frontend Repo</Link></p>
+                <p><a href="https://fork-it-all.herokuapp.com/">Live Version</a></p>
+                <p><a href="https://github.com/kelsi2/fork_it_all_backend">Back-end Repo</a></p>
+                <p><a href="https://github.com/kelsi2/fork_it_all_frontend">Front-end Repo</a></p>
                 <hr/>
                 <p>My final project for Lighthouse Labs Web Development Bootcamp. A food website where users can create unique twists on recipes and find what they need quickly to start cooking!</p>
                 <hr/>
@@ -58,7 +57,7 @@ const Projects = () => {
             <div className="overlay">
               <div className="overlay-text">
                 <h1>Jungle</h1>
-                <p><Link to="https://github.com/kelsi2/jungle">Github</Link></p>
+                <p><a href="https://github.com/kelsi2/jungle">Github</a></p>
                 <hr/>
                 <p>A mini e-commerce app built with Rails.</p>
                 <hr/>
@@ -77,7 +76,8 @@ const Projects = () => {
             <div className="overlay">
               <div className="overlay-text">
                 <h1>Interview Scheduler</h1>
-                <p><Link to="https://github.com/kelsi2/scheduler">Github</Link></p>
+                <p><a href=" https://zealous-sinoussi-2e244a.netlify.app/">Live Version</a></p>
+                <p><a href="https://github.com/kelsi2/scheduler">Github</a></p>
                 <hr/>
                 <p>A React application that allows users to book and cancel interviews.</p>
                 <hr/>
@@ -96,7 +96,7 @@ const Projects = () => {
             <div className="overlay">
               <div className="overlay-text">
                 <h1>Decision Maker</h1>
-                <p><Link to="https://github.com/kelsi2/decision-maker">Github</Link></p>
+                <p><a href="https://github.com/kelsi2/decision-maker">Github</a></p>
                 <hr/>
                 <p>My midterm project for Lighthouse Labs Web Development Bootcamp. An app that allows users to create polls to share with friends and view the results.</p>
                 <hr/>
