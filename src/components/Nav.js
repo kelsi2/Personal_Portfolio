@@ -5,7 +5,7 @@ import "../styles/Nav.css"
 export default function Nav() {
   return (
     <>
-      <span className="nav">
+      <span id="navbar" className="nav">
         <Link smooth to="#top" id="nav-name" className="nav-link">Kelsi Proulx</Link>
         <Link className="nav-link" smooth to="#about">About</Link>
         <Link className="nav-link" smooth to="#projects">Projects</Link>
