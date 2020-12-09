@@ -11,7 +11,7 @@
   justify-content: flex-end;
   align-items: center;
   height: 4em;
-  background: #fff0f0;
+  background: #0D3861;
   overflow: hidden;
   position: sticky;
   top: 0;
@@ -21,11 +21,11 @@
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
   font-size: 1.1em;
-  color: #382b22;
+  color: white;
   cursor: pointer;
 }
 
 .nav-link:hover {
-  color: #201a16;
+  color: #A3ABBD;
   transform: translate(0, 0.1em);
 }

@@ -4,14 +4,7 @@ form {
   font-weight: 200;
   font-size: 1.2em;
   width: 40%;
-  margin: auto
-}
-
-p {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 200;
-  font-size: 1.2em;
-  text-align: center;
+  margin: auto;
 }
 
 input[type=text],input[type=email], select, textarea {
@@ -60,4 +53,11 @@ input[type=submit]:hover {
   border: 1px solid red;
   padding: 7px;
   font-weight: bold;
+}
+
+.form-label {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
 }

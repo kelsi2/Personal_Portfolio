@@ -10,8 +10,6 @@ const Form = (props) => {
 
   const config = {
   api: `${process.env.REACT_APP_API}`,
-  title: 'Contact',
-  description: 'Want to get in touch with me?',
   successMessage: 'Thank you for contcting me.',
   errorMessage: 'Please fill all fields',
   fields:{
@@ -71,11 +69,6 @@ const Form = (props) => {
 
   return (
     <div className="contact-form">
-      <div className="contact-form-header">
-        <h2 id="footer" className="section-header">{config.title}</h2>
-        <hr className="rule" />
-        <p>{config.description}</p>
-      </div>
       <div className="contact-form-container">
         <div>
           <form action="#">
@@ -84,7 +77,7 @@ const Form = (props) => {
                 <React.Fragment key={field.id}>
                   {field.type !== "textarea" ? (
                     <React.Fragment>
-                      <label>{field.label}</label>
+                      <label className="form-label">{field.label}</label>
                       <input
                         type={field.type}
                         placeholder={field.placeholder}
@@ -94,7 +87,7 @@ const Form = (props) => {
                     </React.Fragment>
                   ) : (
                     <React.Fragment>
-                      <label>{field.label}</label>
+                      <label className="form-label">{field.label}</label>
                       <textarea 
                         placeholder={field.placeholder} 
                         onChange={e => handleChange(e, field.fieldName)}
