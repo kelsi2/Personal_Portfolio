@@ -1,11 +1,11 @@
 $bg: #fff;
-$text: #302822;
-$hover-text: #1b1b20;
-$light-pink:#A7AABD;
-$pink: #737687;
-$dark-pink: #3A476D;
-$pink-border: #6D3940;
-$pink-shadow: #A2696F;
+$text: white;
+$hover-text: #FFF7D6;
+$blue:#0D3861;
+$hover-blue: #00C6BB;
+$blue-bg: #00628A;
+$blue-border: #414D7F;
+$blue-shadow: #008E9C;
 
 * {
   box-sizing: border-box;
@@ -30,8 +30,8 @@ $pink-shadow: #A2696F;
     font-weight: 600;
     color: $text;
     padding: 0.75em 1.25em;
-    background: $light-pink;
-    border: 2px solid $pink-border;
+    background: $blue;
+    border: 2px solid $blue-border;
     border-radius: 1em;
     transform-style: preserve-3d;
     transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
@@ -46,19 +46,19 @@ $pink-shadow: #A2696F;
     left: 0;
     right: 0;
     bottom: 0;
-    background: $dark-pink;
+    background: $blue-bg;
     border-radius: inherit;
-    box-shadow: 0 0 0 2px $pink-border, 0 0.625em 0 0 $pink-shadow;
+    box-shadow: 0 0 0 2px $blue-border, 0 0.625em 0 0 $blue-shadow;
     transform: translate3d(0, 0.75em, -1em);
     transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
       box-shadow 150ms cubic-bezier(0, 0, 0.58, 1)
     }
   &:hover {
-    background: $pink;
+    background: $hover-blue;
     color: $hover-text;
     transform: translate(0, 0.25em);
   &::before {
-    box-shadow: 0 0 0 2px $pink-border, 0 0.5em 0 0 $pink-shadow;
+    box-shadow: 0 0 0 2px $blue-border, 0 0.5em 0 0 $blue-shadow;
     transform: translate3d(0, 0, -1em);
       }
     }

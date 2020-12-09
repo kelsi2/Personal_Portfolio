@@ -1,9 +1,6 @@
 form {
   box-sizing: border-box;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 200;
-  font-size: 1.2em;
-  width: 40%;
+  width: 60%;
   margin: auto;
 }
 
@@ -36,11 +33,6 @@ input[type=submit]:hover {
     font-weight: 400
 }
 
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
 .success  {
   margin: 20px 0;
   border: 1px solid green;
@@ -59,5 +51,8 @@ input[type=submit]:hover {
   display: flex;
   justify-content: center;
   align-content: center;
-
+  color:  #0D2754;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 200;
+  font-size: 1.4em;
 }

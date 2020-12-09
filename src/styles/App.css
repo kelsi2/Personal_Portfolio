@@ -12,3 +12,15 @@
   margin: auto;
   padding: 1.5em;
 }
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  background-color: #DFF1FF;
+  border-radius: 10%
+}

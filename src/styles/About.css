@@ -3,18 +3,6 @@
   z-index: 1;
 }
 
-.content {
-  display: flex;
-  flex-wrap: wrap;
-  width: 60%;
-  margin: auto;
-  margin-bottom: 1em;
-  padding-top: 1.5em;
-  padding-bottom: 1em;
-  background-color: #DFF1FF;
-  border-radius: 10%
-}
-
 .col {
   flex: 1;
 }

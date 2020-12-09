@@ -98,7 +98,7 @@ const Form = (props) => {
                     </React.Fragment>
               )
             })}
-            <input type="submit" onClick={e => handleFormSubmit(e)} value="Submit" />
+            <input className="form-label" type="submit" onClick={e => handleFormSubmit(e)} value="Submit" />
             <div>
               {mailSent && <div className="success">{config.successMessage}</div>}
               {error && <div className="error">{config.errorMessage}</div>}
