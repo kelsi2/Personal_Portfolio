@@ -16,11 +16,12 @@
 .content {
   display: flex;
   flex-wrap: wrap;
-  width: 60%;
+  width: 50%;
   margin: auto;
   margin-bottom: 1em;
   padding-top: 1.5em;
   padding-bottom: 1em;
   background-color: #DFF1FF;
+  background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
   border-radius: 10%
 }

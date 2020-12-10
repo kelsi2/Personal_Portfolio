@@ -13,8 +13,19 @@
   height: 4em;
   background: #0D3861;
   overflow: hidden;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+}
+
+.nav.shadow {
+  box-shadow: 0 9px 9px -9px rgba(0, 0, 0, 0.13);
+}
+
+.nav.hidden {
+  transform: translateY(-110%);
 }
 
 .nav-link {
