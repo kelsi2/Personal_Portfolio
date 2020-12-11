@@ -1,10 +1,5 @@
 #footer {
-  background-color: #F1FAFF;
-  width: 50%;
-  margin: auto;
-  border-radius: 10%;
-  padding-top: 1em;
-  margin-bottom: 2em
+  padding-bottom: 2em
 }
 
 #social-icons {
@@ -37,4 +32,12 @@
 
 .contact-form-header {
   padding-top: 0.5em;
+}
+
+.form-content {
+  background-color: #F1FAFF;
+  width: 50%;
+  margin: auto;
+  border-radius: 10%;
+  padding-top: 1em;
 }

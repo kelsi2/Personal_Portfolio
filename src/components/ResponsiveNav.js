@@ -33,6 +33,12 @@ const ResponsiveNav = () => {
                 </li>
               )
             })}
+            <li className="nav-text nav-link">
+              <a href="https://bit.ly/2JSIT3Y">
+                <i className="fas fa-file-pdf"></i>
+                <span>Resume</span>
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
