@@ -1,9 +1,10 @@
 #navbar {
   background-color: #0D3861;
-  height: 4em;
+  height: auto;
   display: flex;
   justify-content: space-between;
   width: 100%;
+  margin: auto;
   align-items: center;
 }
 
@@ -13,13 +14,17 @@
   background: none;
 }
 
+.hidden-bars {
+  display: none
+}
+
 .nav-menu {
   background-color: #0D3861;
   width: 250px;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: -100%;
   transition: 850ms;
@@ -70,4 +75,8 @@
 
 span {
   margin-left: 16px;
+}
+
+#side-nav-active {
+  height: 32em
 }

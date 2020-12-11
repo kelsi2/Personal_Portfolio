@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 import SidebarData from "./SidebarData";
-import Logo from "./Logo"
 import "../styles/ResponsiveNav.css";
 
 const ResponsiveNav = () => {
@@ -13,9 +12,8 @@ const ResponsiveNav = () => {
 
   return (
     <>
-      <div id="navbar">
-        <Logo />
-        <Link to="#" className="menu-bars">
+      <div id={sidebar ? "side-nav-active" : "navbar"}>
+        <Link to="#" className={sidebar ? "hidden-bars" : "menu-bars"}>
           <i className="fas fa-bars" onClick={showSidebar}></i>
         </Link>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>

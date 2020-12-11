@@ -2,6 +2,12 @@ import React from "react";
 
 const SidebarData = [
   {
+    title: "Home",
+    path: "#",
+    icon: <i class="fas fa-home"></i>,
+    className: "nav-text nav-link"
+  },
+  {
     title: "About",
     path: "#about",
     icon: <i class="fas fa-address-card"></i>,

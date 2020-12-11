@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Logo from "./Logo";
 import { HashLink as Link } from 'react-router-hash-link';
 
 const NavLinks = () => {
