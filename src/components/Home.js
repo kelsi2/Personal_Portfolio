@@ -7,18 +7,20 @@ export default function Home() {
   return (
   <>
     <div className="canvas">
-      <div id="container">
-          <h1 className="name">Kelsi <br/> Proulx</h1>
-          <h1 className="title">Full Stack <br/> Web Developer</h1>
+      <div className="home-content">
+        <div id="container" className="col">
+            <h1 className="name">Kelsi <br/> Proulx</h1>
+            <h1 className="title">Full Stack <br/> Web Developer</h1>
+        </div>
+        <span id="btn-container" className="col">
+          <Link to="#about" className="learn-btn learn-more">
+            Find out More
+            <br/>
+            <i className="fas fa-angle-double-down"></i>
+            {/* TODO: FIND A WAY TO ANIMATE ARROW!!! */}
+          </Link>
+        </span>
       </div>
-      <span id="btn-container">
-        <Link to="#about" className="learn-btn learn-more">
-          Find out More
-          <br/>
-          <i className="fas fa-angle-double-down"></i>
-          {/* TODO: FIND A WAY TO ANIMATE ARROW!!! */}
-        </Link>
-      </span>
     </div>
   </>
   );
