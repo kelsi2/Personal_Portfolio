@@ -4,6 +4,7 @@
   font-size: 1.1em;
   color: white;
   cursor: pointer;
+  padding: 1em;
 }
 
 .nav-link:hover {

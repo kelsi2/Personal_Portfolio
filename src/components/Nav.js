@@ -38,7 +38,7 @@ export default function Nav() {
     }, [])
 
     useEffect(() => {
-      const media = window.matchMedia("(max-width: 768px)")
+      const media = window.matchMedia("(max-width: 800px)")
       media.addEventListener("change", updateTarget)
 
       if (media.matches) {

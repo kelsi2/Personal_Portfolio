@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
+import Logo from "./Logo";
 import { HashLink as Link } from 'react-router-hash-link';
+import "../styles/NavLink.css";
 
 const NavLinks = () => {
   return (
     <>
+      <Logo />
       <span className="nav-links">
         <Link className="nav-link" smooth to="#about">About</Link>
         <Link className="nav-link" smooth to="#projects">Projects</Link>
