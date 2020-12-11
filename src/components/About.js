@@ -2,7 +2,6 @@ import React from 'react';
 import Kelsi from "../images/Kelsi.png"
 import "../styles/About.css"
 import "../styles/App.css"
-import Form from "./Form"
 
 export default function About() {
   return (

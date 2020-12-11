@@ -18,10 +18,10 @@
   flex-wrap: wrap;
   width: 50%;
   margin: auto;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   padding-top: 1.5em;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
   background-color: #DFF1FF;
   background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
-  border-radius: 10%
+  border-radius: 25px
 }

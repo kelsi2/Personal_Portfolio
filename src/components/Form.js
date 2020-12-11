@@ -1,31 +1,27 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import axios from 'axios';
 import "../styles/Form.css"
 
-const Form = (props) => {
-  const [mailSent, setmailSent] = useState(false);
+const Form = () => {
+  const [mailSent, setMailSent] = useState(false);
   const [error, setError] = useState(null);
   const [formData, setFormData] = useState({});
 
   const config = {
-  api: `${process.env.REACT_APP_API}`,
-  successMessage: 'Thank you for contcting me.',
-  errorMessage: 'Please fill all fields',
-  fields:{
-    firstName: '',
-    lastName: '',
-    email: '',
-    msg: ''
-  },
-  fieldsConfig:  [
-   { id: 1, label: 'Name', fieldName: 'name', type: 'text',placeholder:'Enter your name', isRequired: true },
-   { id: 2, label: 'Email', fieldName: 'email', type: 'email', placeholder: ' Enter your email', isRequired: true},
-   { id: 3, label: 'Message', fieldName: 'msg', type: 'textarea',placeholder:'How can I help?', isRequired: true}
-  ]
-}
-
-  // const { title, description, successMessage, errorMessage, fieldsConfig } = props.config;
+    successMessage: 'Thank you for contacting me.',
+    errorMessage: 'Please fill all fields',
+    fields:{
+      firstName: '',
+      lastName: '',
+      email: '',
+      msg: ''
+    },
+    fieldsConfig:  [
+    { id: 1, label: 'Name', fieldName: 'name', type: 'text',placeholder:'Enter your name', isRequired: true },
+    { id: 2, label: 'Email', fieldName: 'email', type: 'email', placeholder: ' Enter your email', isRequired: true},
+    { id: 3, label: 'Message', fieldName: 'msg', type: 'textarea',placeholder:'How can I help?', isRequired: true}
+    ]
+  }
 
   /**
    * @function handleFormSubmit
@@ -37,13 +33,12 @@ const Form = (props) => {
     e.preventDefault();
     axios({
       method: "post",
-      url: `${process.env.REACT_APP_API}`,
       headers: { "content-type": "application/json" },
       data: formData
     })
     .then(result => {
       if (result.data.sent) {
-        setmailSent(result.data.sent)
+        setMailSent(result.data.sent)
         setError(false)
       } else {
         setError(true)
@@ -111,7 +106,3 @@ const Form = (props) => {
 }
 
 export default Form;
-
-Form.propTypes = {
-  config: PropTypes.object.isRequired
-};
