@@ -6,7 +6,21 @@
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
   color: #0C3861;
-  padding-bottom: 0.5em
+  font-size: 2em;
+  text-align: center;
+  padding: 0
+}
+
+.work-sub-header {
+  font-size: 1.5em;
+  font-weight: 300;
+  padding: 0
+}
+
+.work-sub-sub-header {
+  font-size: 1em;
+  font-weight: 200;
+  padding: 0
 }
 
 .experience-content {
@@ -15,9 +29,15 @@
   font-size: 1em;
   font-size: 1.2em;
   text-align: center;
-  width: 75%;
-  margin: auto;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  width: 100%;
+  margin: 1em;
+  padding: 1em;
   list-style: none;
+  text-align: left;
+}
+
+@media screen and (max-width: 730px) {
+  .work-header {
+    font-size: 1.25em;
+  }
 }

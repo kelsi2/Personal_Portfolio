@@ -16,7 +16,7 @@ const Projects = () => {
         {isBreakpoint ? (
           <ResponsiveProjects />
         ) : (
-          <FullProjects className="project-container" />
+          <FullProjects />
         )}
         
       </div>

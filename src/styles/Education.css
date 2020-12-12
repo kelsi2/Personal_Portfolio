@@ -1,19 +1,25 @@
-.education-text {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 200;
-  font-size: 1.2em;
-  text-align: center;
-  width: 75%;
-  margin: auto;
-  padding-top: 1em;
-  padding-bottom: 1em
+.education-header {
+  font-weight: 400;
+  font-size: 1.4em;
 }
 
-.work-header {
+.education-sub-header {
+  font-weight: 300;
+  font-size: 1em
+}
+
+.education-sub-sub-header {
+  font-weight: 200;
+  font-size: 0.8em
+}
+
+.education-content {
   text-align: center;
-  margin: auto;
-  padding: auto;
-  padding-right: 1em;
-  padding-left: 1em;
-  width: 100%;
+  padding: 0 0.5em 0 0.5em;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #0C3861;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 0 1.2em 0 1em
 }

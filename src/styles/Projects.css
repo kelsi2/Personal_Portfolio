@@ -17,8 +17,6 @@
 .proj-img-container {
   position: relative;
   display: flex;
-  /* width: 100%;
-  max-width: 32em; */
   margin: auto;
   overflow: hidden;
 }
@@ -79,6 +77,14 @@
   font-weight: 300;
   font-size: 1.1em;
   color: #fff;
+  margin-bottom: 0.25em
+}
+
+.overlay-text a {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 1.1em;
+  color: #00C6BB;
   margin-bottom: 0.25em
 }
 
