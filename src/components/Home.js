@@ -16,8 +16,9 @@ export default function Home() {
           <Link to="#about" className="learn-btn learn-more">
             Find out More
             <br/>
-            <i className="fas fa-angle-double-down"></i>
-            {/* TODO: FIND A WAY TO ANIMATE ARROW!!! */}
+            <div className="bouncing-arrow">
+              <i className="fas fa-angle-double-down"></i>
+            </div>
           </Link>
         </span>
       </div>
