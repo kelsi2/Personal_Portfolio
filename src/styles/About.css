@@ -10,8 +10,8 @@
   font-size: 1.2em;
   text-align: left;
   min-width: 70%;
-  padding-right: 0.6em;
-  padding-left: 0.5em
+  padding-right: 1em;
+  padding-left: 1em
 }
 
 .profile-img-container {
@@ -36,6 +36,6 @@
     width: 10em;
   }
   .about-text {
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
 }

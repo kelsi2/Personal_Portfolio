@@ -3,6 +3,7 @@ import NavLinks from "./NavLinks";
 import ResponsiveNav from "./ResponsiveNav";
 import "../styles/Nav.css";
 import useDocumentScrollThrottled from "../helpers/scrollFunc";
+import useMediaQuery from "../helpers/useMediaQuery";
 
 export default function Nav() {
   const [shouldHideNav, setShouldHideNav] = useState(false);
@@ -25,33 +26,7 @@ export default function Nav() {
 
   const shadowStyle = shouldShowShadow ? "shadow" : "";
   const scrollStyle = shouldHideNav ? "hidden" : "";
-
-  const useMediaQuery = (width) => {
-    const [targetReached, setTargetReached] = useState(false);
-
-    const updateTarget = useCallback((e) => {
-      if (e.matches) {
-        setTargetReached(true)
-      } else {
-        setTargetReached(false)
-      }
-    }, [])
-
-    useEffect(() => {
-      const media = window.matchMedia("(max-width: 800px)")
-      media.addEventListener("change", updateTarget)
-
-      if (media.matches) {
-        setTargetReached(true)
-      }
-
-      return () => media.removeEventListener("change", updateTarget)
-    }, [])
-
-    return targetReached;
-  }
-
-  const isBreakpoint = useMediaQuery()
+  const isBreakpoint = useMediaQuery();
 
   return (
     <>

@@ -80,3 +80,14 @@
   color: #fff;
   margin-bottom: 0.25em
 }
+
+@media screen and (max-width: 730px) {
+  .project-img {
+    width: 10em;
+    height: 7em;
+    margin: auto
+  }
+  .overlay-text {
+    opacity: 1;
+  }
+}
