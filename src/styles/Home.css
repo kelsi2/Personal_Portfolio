@@ -20,15 +20,21 @@
 .canvas {
   background: linear-gradient(rgba(25, 4, 75, 0.5), rgba(25, 4, 75, 0.5)),
     url('../images/background.jpg');
-  background-position-x: center;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   position: relative;
-  height: -webkit-fill-available;
+  background-repeat: no-repeat;
   min-height: 100%;
+  min-width: 1024px;
   height: 100vh;
   width: 100%;
   display: flex;
   z-index: 0;
+  /* top: 0;
+  left: 0 */
 }
 
 .name {
@@ -44,5 +50,29 @@
   flex-wrap: wrap;
   width: 100%;
   margin: auto;
-  padding: 2.5em
+}
+
+@media screen and (max-width: 736px) {
+  #container {
+    margin-left: 0;
+  }
+  .name {
+    margin: 0;
+    font-size: 3em
+  }
+  .title {
+    font-size: 1em;
+  }
+  .home-content {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .canvas {
+    left: 50%;
+    margin-left: -512px
+  }
 }

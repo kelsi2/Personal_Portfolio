@@ -64,3 +64,9 @@ $blue-shadow: #008E9C;
     }
   }
 }
+
+@media screen and (max-width: 736px) {
+  .learn-btn {
+    font-size: 1em;
+  }
+}

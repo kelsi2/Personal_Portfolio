@@ -12,6 +12,7 @@
   margin-left: 2rem;
   font-size: 2rem;
   background: none;
+  color: white
 }
 
 .hidden-bars {
@@ -79,4 +80,11 @@ span {
 
 #side-nav-active {
   height: 32em
+}
+
+@media screen and (max-width: 1024px) {
+  .menu-bars {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em
+  }
 }
