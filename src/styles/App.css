@@ -8,15 +8,21 @@
   padding-top: 0.2em;
 }
 
+.col {
+  flex: 1
+}
+
 .rule {
   width: 75%;
   margin: auto;
-  padding: 1.5em;
+  margin-bottom: 1em;
+  margin-top: 1.5em
 }
 
 .content {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
   width: 50%;
   margin: auto;
   margin-bottom: 1.5em;
@@ -25,4 +31,14 @@
   background-color: #DFF1FF;
   background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
   border-radius: 25px
+}
+
+@media screen and (max-width: 730px) {
+  .section-header {
+  font-weight: 200;
+  font-size: 2em;
+  }
+  .rule {
+    width: 40%
+  }
 }
