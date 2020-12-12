@@ -59,6 +59,7 @@
 
 .nav-text a:hover {
   background-color: #1a83ff;
+  transform: translate(0, 0.1em);
 }
 
 .nav-menu-items {

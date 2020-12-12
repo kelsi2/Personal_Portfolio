@@ -26,13 +26,13 @@ export default function Nav() {
 
   const shadowStyle = shouldShowShadow ? "shadow" : "";
   const scrollStyle = shouldHideNav ? "hidden" : "";
-  const isBreakpoint = useMediaQuery("800px");
+  const isBreakpoint = useMediaQuery("970px");
 
   return (
     <>
-      <span id="navbar" className={`nav ${scrollStyle} ${shadowStyle}`}>
+      <span className={`nav ${scrollStyle} ${shadowStyle}`}>
         {isBreakpoint ? (
-          <ResponsiveNav />
+          <ResponsiveNav id="navbar"  />
         ) : (
           <NavLinks />
         )}

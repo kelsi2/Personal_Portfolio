@@ -1,15 +1,8 @@
-#nav-name {
-  display: flex;
-  justify-self: flex-start;
-  margin-right: auto;
-  margin-bottom: 0
-}
-
 .nav {
   z-index: 15;
   width: 100%;
+  margin: auto;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   height: 4em;
   background-color: #0D3861;
@@ -31,4 +24,6 @@
 
 .nav-links {
   display: flex;
+  width: 100%;
+  justify-content: flex-end;
 }

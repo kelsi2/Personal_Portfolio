@@ -5,9 +5,10 @@
   color: white;
   cursor: pointer;
   padding: 1em;
+  text-decoration: none;
 }
 
 .nav-link:hover {
-  color: #A3ABBD;
+  background-color: #1a83ff;
   transform: translate(0, 0.1em);
 }
