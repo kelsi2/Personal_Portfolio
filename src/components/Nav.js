@@ -26,7 +26,7 @@ export default function Nav() {
 
   const shadowStyle = shouldShowShadow ? "shadow" : "";
   const scrollStyle = shouldHideNav ? "hidden" : "";
-  const isBreakpoint = useMediaQuery();
+  const isBreakpoint = useMediaQuery("800px");
 
   return (
     <>

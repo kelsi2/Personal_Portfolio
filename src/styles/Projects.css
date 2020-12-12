@@ -16,8 +16,9 @@
 
 .proj-img-container {
   position: relative;
-  width: 100%;
-  max-width: 32em;
+  display: flex;
+  /* width: 100%;
+  max-width: 32em; */
   margin: auto;
   overflow: hidden;
 }
@@ -81,13 +82,30 @@
   margin-bottom: 0.25em
 }
 
+/* Responsive styling */
+.project-header {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em
+}
+
+.project-text {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 200;
+  margin: 0.5em
+}
+
 @media screen and (max-width: 730px) {
   .project-img {
     width: 10em;
-    height: 7em;
-    margin: auto
-  }
-  .overlay-text {
-    opacity: 1;
+    height: 8em;
+    margin-top: 0.2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
   }
 }

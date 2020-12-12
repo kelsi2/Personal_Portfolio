@@ -1,6 +1,6 @@
 import { useEffect, useCallback, useState } from 'react';
 
-const useMediaQuery = () => {
+const useMediaQuery = (width) => {
   const [targetReached, setTargetReached] = useState(false);
 
   const updateTarget = useCallback((e) => {
@@ -12,7 +12,7 @@ const useMediaQuery = () => {
   }, [])
 
   useEffect(() => {
-    const media = window.matchMedia("(max-width: 800px)")
+    const media = window.matchMedia(`(max-width: ${width})`)
     media.addEventListener("change", updateTarget)
 
     if (media.matches) {

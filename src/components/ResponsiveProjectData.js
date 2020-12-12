@@ -50,13 +50,10 @@ const ResponsiveProjectData = () => {
           <h1 className="project-header">Jungle</h1>
           <div className="project-text">
             <p><a href="https://github.com/kelsi2/jungle">Github</a></p>
-            <hr/>
             <p>A mini e-commerce app built with Rails.</p>
-            <hr/>
             <p><b>Front-end: </b>CSS, Bootstrap</p>
             <p><b>Back-end: </b>Ruby on Rails, Active Record, PSQL</p>
             <p><b>Test: </b>RSpec, Capybara</p>
-            <hr/>
             <p><b>Project Dates: </b>October 13-21, 2020</p>
           </div>
         </div>
@@ -86,12 +83,10 @@ const ResponsiveProjectData = () => {
           <h1 className="project-header">Decision Maker</h1>
           <div className="project-text">
             <p><a href="https://github.com/kelsi2/decision-maker">Github</a></p>
-            <hr/>
-            <p>My midterm project for Lighthouse Labs Web Development Bootcamp. An app that allows users to create polls to share with friends and view the results.</p>
-            <hr/>
+            <p>My midterm project for Lighthouse Labs Web Development Bootcamp. 
+              An app that allows users to create polls to share with friends and view the results.</p>
             <p><b>Front-end: </b>SASS, EJS</p>
             <p><b>Back-end: </b>NodeJS, Express, jQuery, PSQL, JavaScript</p>
-            <hr/>
             <p><b>Project Dates: </b>September 18 - 25, 2020</p>
           </div>
         </div>

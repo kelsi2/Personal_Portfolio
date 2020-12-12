@@ -5,7 +5,7 @@ import ResponsiveProjects from "./ResponsiveProjectData";
 import useMediaQuery from "../helpers/useMediaQuery";
 
 const Projects = () => {
-  const isBreakpoint = useMediaQuery();
+  const isBreakpoint = useMediaQuery("730px");
 
   return (
     <>
