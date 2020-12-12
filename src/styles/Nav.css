@@ -4,12 +4,10 @@
   margin: auto;
   display: flex;
   align-items: center;
-  height: 4em;
+  height: auto;
   background-color: #0D3861;
   overflow: hidden;
   position: fixed;
-  top: 0;
-  left: 0;
   transform: translateY(0);
   transition: transform 0.3s ease;
 }
