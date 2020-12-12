@@ -84,6 +84,7 @@
 
 /* Responsive styling */
 .project-header {
+  position: relative;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 200;
   font-size: 2em;
@@ -93,16 +94,19 @@
 }
 
 .project-text {
+  flex-grow: 2;
+  position: relative;
   text-align: center;
   font-family: 'Rubik', sans-serif;
-  font-weight: 200;
-  margin: 0.5em
+  font-weight: 300;
+  font-size: 1em;
+  margin: 0.5em;
 }
 
 @media screen and (max-width: 730px) {
   .project-img {
-    width: 10em;
-    height: 8em;
+    width: 14em;
+    height: 14em;
     margin-top: 0.2em;
     margin-left: auto;
     margin-right: auto;

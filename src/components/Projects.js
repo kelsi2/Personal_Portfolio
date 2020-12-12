@@ -12,11 +12,11 @@ const Projects = () => {
       <span id="projects" className="section-header">Projects</span>
       <hr className="rule" />
 
-      <div className="project-container">
+      <div>
         {isBreakpoint ? (
           <ResponsiveProjects />
         ) : (
-          <FullProjects />
+          <FullProjects className="project-container" />
         )}
         
       </div>

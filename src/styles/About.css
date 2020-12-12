@@ -32,10 +32,11 @@
 
 @media screen and (max-width: 730px) {
   .profile-img {
-    height: 10em;
-    width: 10em;
+    height: 14em;
+    width: 14em;
   }
   .about-text {
-    font-size: 0.7em;
+    flex-grow: 2;
+    font-size: 1em;
   }
 }
