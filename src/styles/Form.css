@@ -41,15 +41,19 @@ input[type=submit]:hover {
 
 .success  {
   margin: 20px 0;
-  border: 1px solid green;
+  background-color:green;
+  padding: 10px;
+  border-radius: 5px;
   padding: 7px;
   font-weight: bold;
 }
 
 .error {
   margin: 20px 0;
-  border: 1px solid red;
-  padding: 7px;
+  background-color: red;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
   font-weight: bold;
 }
 

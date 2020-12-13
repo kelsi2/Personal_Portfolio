@@ -8,11 +8,10 @@ const Form = () => {
   const [formData, setFormData] = useState({});
 
   const config = {
-    successMessage: 'Thank you for contacting me.',
-    errorMessage: 'Please fill all fields',
+    successMessage: 'Thank you for contacting me, I will get back to you as soon as possible.',
+    errorMessage: 'Please fill in all fields',
     fields:{
       firstName: '',
-      lastName: '',
       email: '',
       msg: ''
     },
@@ -30,9 +29,11 @@ const Form = () => {
    */
 
   const handleFormSubmit = e => {
+    console.log(formData)
     e.preventDefault();
     axios({
       method: "post",
+      url: `${process.env.REACT_APP_API}`,
       headers: { "content-type": "application/json" },
       data: formData
     })
@@ -93,11 +94,11 @@ const Form = () => {
                     </React.Fragment>
               )
             })}
-            <input className="form-label" type="submit" onClick={e => handleFormSubmit(e)} value="Submit" />
             <div>
-              {mailSent && <div className="success">{config.successMessage}</div>}
-              {error && <div className="error">{config.errorMessage}</div>}
+              {mailSent && <div className="success"><i className="fas fa-thumbs-up"></i> {config.successMessage}</div>}
+              {error && <div className="error"><i className="fas fa-exclamation-triangle"></i> {config.errorMessage}</div>}
             </div>
+            <input className="form-label" type="submit" onClick={e => handleFormSubmit(e)} value="Submit" />
           </form>
         </div>
       </div>
