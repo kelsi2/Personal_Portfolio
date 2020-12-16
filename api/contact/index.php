@@ -1,5 +1,4 @@
 <?php
-  include_once('sendmail.php');
   header("Access-Control-Allow-Origin: *");
   header("Access-Control-Allow-Headers: Content-Type");
   $rest_json = file_get_contents("php://input");
@@ -34,5 +33,6 @@
           "sent" => false,
           "message" => "Something went wrong, please try again."
         ]
-      )
+        );
+      exit();
     }

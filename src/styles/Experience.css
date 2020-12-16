@@ -2,25 +2,37 @@
   background-color: #F1FAFF;
 }
 
+.experience-headers {
+  text-align: center;
+  padding: 0 0.5em 0 0.5em;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #0C3861;
+  flex-direction: column;
+  margin: auto;
+}
+
 .work-header {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
   color: #0C3861;
   font-size: 2em;
   text-align: center;
-  padding: 0
+  padding: 0;
+  margin: 0
 }
 
 .work-sub-header {
   font-size: 1.5em;
   font-weight: 300;
-  padding: 0
+  padding: 0;
+  margin: 0
 }
 
 .work-sub-sub-header {
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 200;
-  padding: 0
+  padding: 0;
+  margin: 0
 }
 
 .experience-content {
@@ -33,11 +45,27 @@
   margin: 1em;
   padding: 1em;
   list-style: none;
-  text-align: left;
 }
 
 @media screen and (max-width: 730px) {
   .work-header {
     font-size: 1.25em;
+    margin: 0
+  }
+  .work-header {
+    font-size: 1.2em;
+    margin: 0
+  }
+  .work-sub-header {
+    font-size: 1em;
+    margin: 0
+  }
+  .work-sub-sub-header {
+    font-size: 0.9em;
+    margin: 0
+  }
+  .experience-content {
+    font-size: 0.8em;
+    padding: 0;
   }
 }

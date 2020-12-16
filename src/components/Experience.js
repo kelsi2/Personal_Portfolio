@@ -8,7 +8,7 @@ const Experience = () => {
       <hr className="rule" />
 
       <div id="experience-content" className="content">
-        <div className="education-content">
+        <div className="experience-headers">
           <h3 className="work-header">Program Assistant</h3>
           <h4 className="work-sub-header">The University of British Columbia</h4>
           <h5 className="work-sub-sub-header">June 2019 - April 2020</h5>
@@ -21,7 +21,7 @@ const Experience = () => {
             <li>Catalogued, processed, and maintained technical equipment for lending.</li>
           </ul>
 
-          <div className="education-content">
+          <div className="experience-headers">
             <h3 className="work-header">Library Clerk II</h3>
             <h4 className="work-sub-header">Burnaby Public Library</h4>
             <h5 className="work-sub-sub-header">October 2016 - June 2019</h5>
@@ -34,7 +34,7 @@ const Experience = () => {
             <li>Assisted with community outreach services.</li>
           </ul>
 
-          <div className="education-content">
+          <div className="experience-headers">
             <h3 className="work-header">Public Services Library Technician</h3>
             <h4 className="work-sub-header">Douglas College</h4>
             <h5 className="work-sub-sub-header">May 2016 - July 2017</h5>
@@ -47,7 +47,7 @@ const Experience = () => {
             <li>Provided customer service to students and staff.</li>
           </ul>
 
-          <div className="education-content">
+          <div className="experience-headers">
             <h3 className="work-header">Computer Lab Assistant and Tutor</h3>
             <h4 className="work-sub-header">Langara College</h4>
             <h5 className="work-sub-sub-header">September 2014 - June 2016</h5>
