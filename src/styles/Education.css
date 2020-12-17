@@ -37,4 +37,9 @@
     margin-top: 0;
     margin-bottom: 0.5em
   }
+  .education-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+  }
 }
