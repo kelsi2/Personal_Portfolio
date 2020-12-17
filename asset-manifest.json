@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.55cd392e.chunk.css",
+    "main.js": "/static/js/main.15e01dfe.chunk.js",
+    "main.js.map": "/static/js/main.15e01dfe.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eaa0a54d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eaa0a54d.js.map",
+    "static/js/2.d5bc20fd.chunk.js": "/static/js/2.d5bc20fd.chunk.js",
+    "static/js/2.d5bc20fd.chunk.js.map": "/static/js/2.d5bc20fd.chunk.js.map",
+    "static/js/3.0ff09d17.chunk.js": "/static/js/3.0ff09d17.chunk.js",
+    "static/js/3.0ff09d17.chunk.js.map": "/static/js/3.0ff09d17.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.55cd392e.chunk.css.map": "/static/css/main.55cd392e.chunk.css.map",
+    "static/js/2.d5bc20fd.chunk.js.LICENSE.txt": "/static/js/2.d5bc20fd.chunk.js.LICENSE.txt",
+    "static/media/Kelsi.d9ceabea.png": "/static/media/Kelsi.d9ceabea.png",
+    "static/media/Products_page.f762596d.png": "/static/media/Products_page.f762596d.png",
+    "static/media/Home.css": "/static/media/background.bb0fea1e.jpg",
+    "static/media/decisionMakerHome.2981a73f.png": "/static/media/decisionMakerHome.2981a73f.png",
+    "static/media/forkItAllHome.a05771db.png": "/static/media/forkItAllHome.a05771db.png",
+    "static/media/letsplayjeopardy.f4711075.png": "/static/media/letsplayjeopardy.f4711075.png",
+    "static/media/scheduler.fb3dea93.png": "/static/media/scheduler.fb3dea93.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eaa0a54d.js",
+    "static/js/2.d5bc20fd.chunk.js",
+    "static/css/main.55cd392e.chunk.css",
+    "static/js/main.15e01dfe.chunk.js"
+  ]
+}
