@@ -13,7 +13,7 @@ export default function Home() {
             <h1 className="title">Full Stack <br/> Web Developer</h1>
         </div>
         <span id="btn-container" className="col">
-          <Link to="#about" className="learn-btn learn-more">
+          <Link smooth to="#about" className="learn-btn learn-more">
             Find out More
             <br/>
             <div className="bouncing-arrow">

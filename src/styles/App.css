@@ -20,17 +20,16 @@
 }
 
 .content {
+  background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  width: 60%;
+  width: 100%;
   margin: auto;
   margin-bottom: 1.5em;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
   background-color: #DFF1FF;
-  background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
-  border-radius: 25px
 }
 
 @media screen and (max-width: 730px) {
